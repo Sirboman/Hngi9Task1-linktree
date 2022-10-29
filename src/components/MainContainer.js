@@ -20,7 +20,7 @@ function MainContainer() {
                 <img src={profileimg}alt='' />
                 </div>
                 <span>
-                    <h2 id='twitter'><small>Sir_boman</small></h2>
+                    <h2 id='twitter'><small>Henry Okolie</small></h2>
                     <h2 id='slack' hidden ><small>HNG001819OHO</small></h2>
                 </span>      
             </div>

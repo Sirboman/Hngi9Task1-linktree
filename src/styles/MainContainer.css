@@ -195,9 +195,35 @@ footer .partner h2 small
 
 
 /* ================= Smaller devices =============== */
-@media screen and (max-width: 600) {
-    body {
-        background: red;
+@media screen and (max-width: 640px) {
+
+
+    .MainContainer main
+    {
+        margin-bottom: 2rem;
     }
+
+
+    .MainContainer main .links
+    {
+    position: relative;
+    width: 300px;
+    bottom: 7rem;
+    margin-top: 20rem;
+    }
+
+    .MainContainer main .links .link li a
+    {
+        padding: 3px;
+    }
+
+    .MainContainer main .links .link li a .title
+    {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+
+    
 }
   
