@@ -130,7 +130,7 @@ justify-content: center ;
 }
 
 /*============ FOOTER SECTION ========*/
-footer
+.MainContainer footer
 {
     position: absolute;
     margin: 1px;
@@ -150,12 +150,6 @@ footer .logo h2 small span
     color: red;
 }
 
-footer .partner h2 small
-{
-    display: flex;
-    flex-direction: column;
-    word-break: break-all;
-}
 
 /*============ SCREEN RESOLUTION ===========*/
 @media screen and (max-width: 992px) {
@@ -183,7 +177,7 @@ footer .partner h2 small
         margin-top: 2rem;
     }
 
-    footer
+    .MainContainer footer
     {
         display: flex;
         flex-direction: column;
@@ -223,7 +217,17 @@ footer .partner h2 small
         font-weight: 600;
     }
 
-
+    .MainContainer footer
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 0.2rem;
+    }
     
+    .MainContainer footer>div
+    {
+        font-size: 3px;
+    }
 }
   
