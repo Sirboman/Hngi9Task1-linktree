@@ -192,4 +192,12 @@ footer .partner h2 small
         gap: 0.2rem;
     }
 }
+
+
+/* ================= Smaller devices =============== */
+@media screen and (max-width: 600) {
+    body {
+        background: red;
+    }
+}
   
