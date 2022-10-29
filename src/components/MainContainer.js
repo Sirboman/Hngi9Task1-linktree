@@ -5,14 +5,14 @@ import slack from "../images/slack.png";
 import I4G from "../images/I4G.png";
 import { AiFillGithub } from "react-icons/ai";
 import { IoIosShareAlt } from "react-icons/io";
-
+import {FaEllipsisH } from "react-icons/fa";
 
 function MainContainer() {
   return (
   <div className='MainContainer'>
         <header>
             <div className="icon">
-                <i><IoIosShareAlt /></i>
+                <i><FaEllipsisH /></i>
             </div>
 
             <div id='profile'>
@@ -75,6 +75,7 @@ function MainContainer() {
         </div>
 
         <div className='break'></div>
+        
         
         <footer>
             <div className='logo'>
