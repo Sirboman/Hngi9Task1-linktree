@@ -257,9 +257,18 @@ justify-content: center ;
     margin-top: 20rem;
     }
   
+    
+    .MainContainer main .links .link li
+    {
+    background: #EAECF0;
+    width: 400px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center ;
+    }
+
     .MainContainer main .links .link li a
     {
-        width: 300px;
         padding: 3px;
     }
   
