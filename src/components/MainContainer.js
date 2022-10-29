@@ -1,19 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../styles/MainContainer.css";
 import profileimg from "../images/profileimg.png";
 import slack from "../images/slack.png";
-import I4G from "../images/I4G.png";
 import { AiFillGithub } from "react-icons/ai";
 import { IoIosShareAlt } from "react-icons/io";
 import {FaEllipsisH } from "react-icons/fa";
 
 function MainContainer() {
+
+    const[Show, SetShow] = useState(false)
+    
   return (
   <div className='MainContainer'>
         <header>
-            <div className="icon">
+            <div className="icon-sm">
                 <i><FaEllipsisH /></i>
+                <i><IoIosShareAlt /></i>
             </div>
+            
 
             <div id='profile'>
                 <div id='profile__img'>
@@ -29,6 +33,13 @@ function MainContainer() {
         <main>
             <div className='links'>
                 <ul className='link'>
+
+                    <li>
+                        <a href='https://twitter.com/sir_boman?t=42uPZV1CSoEOzFAulbo1xQ&s=09/' id='btn__zuri'> 
+                        <h3 className='title'>Twitter Link</h3>
+                        </a>
+                    </li>
+
                     <li>
                         <a href='https://training.zuri.team/' id='btn__zuri'> 
                         <h3 className='title'>Zuri Team</h3>
@@ -59,42 +70,23 @@ function MainContainer() {
                         </a>
                     </li>
                 </ul>
+
+                <div className='primary'>
+                    <span>
+                        <a href='J'> <img src={slack} alt="hngIcon" /></a>
+                    </span>
+                    <span>
+                        <i><AiFillGithub /></i>  
+                    </span>
+                </div>
             </div>
+
+           
         </main>
 
-        <div className='primary'>
-            <span>
-                <a href='j'> <img src={slack} alt="hngIcon" /></a>
-            </span>
-            <span>
-                <a href='j'>
-                    <i><AiFillGithub /></i>
-                </a>
-                
-            </span>
-        </div>
-
-        <div className='break'></div>
         
-        
-        <footer>
-            <div className='logo'>
-                <h2>
-                    <small>Zuri
-                        <span id='zuri'>.</span>
-                        Internship
-                    </small>
-                </h2>
-            </div>
 
-            <div className='task'>
-                Hng Internship 9 Frontend Task
-            </div>
-
-            <div className='partner'>
-                <img src={I4G} alt='h' />
-            </div>
-        </footer>
+      
   </div>
   )
 }
