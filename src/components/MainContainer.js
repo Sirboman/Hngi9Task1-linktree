@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import "../styles/MainContainer.css";
+import profilepic from "../images/profilepic.JPG"
 import profileimg from "../images/profileimg.png";
 import slack from "../images/slack.png";
 import { AiFillGithub } from "react-icons/ai";
@@ -8,8 +9,6 @@ import {FaEllipsisH } from "react-icons/fa";
 
 function MainContainer() {
 
-    const[Show, SetShow] = useState(false)
-    
   return (
   <div className='MainContainer'>
         <header>
@@ -21,7 +20,7 @@ function MainContainer() {
 
             <div id='profile'>
                 <div id='profile__img'>
-                <img src={profileimg}alt='' />
+                <img className='profilepic' src={profilepic}alt='' />
                 </div>
                 <span>
                     <h2 id='twitter'><small>Henry Okolie</small></h2>
