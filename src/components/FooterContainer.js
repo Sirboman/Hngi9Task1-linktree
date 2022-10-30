@@ -9,6 +9,7 @@ function FooterContainer() {
 
        <div className='break'></div>
        <footer>
+        
             <div className='logo'>
                 <h2>
                     <small>Zuri
@@ -23,7 +24,7 @@ function FooterContainer() {
             </div>
 
             <div className='partner'>
-                <img src={I4G} alt='h' />
+                <img src={I4G} alt='I4G' />
             </div>
 
            

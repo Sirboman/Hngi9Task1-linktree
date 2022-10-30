@@ -32,13 +32,6 @@ top:0
     justify-content: center;
 }
 
-.MainContainer header #profile #profile__img .profilepic
-{
-    width: 120px;
-    height: 120px;
-    aspect-ratio: 1/1;
-    border-radius: 6rem;
-}
 
 
 .MainContainer header .icon-sm i:nth-of-type(2)

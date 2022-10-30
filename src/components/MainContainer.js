@@ -1,6 +1,5 @@
 import React  from 'react';
 import "../styles/MainContainer.css";
-import profilepic from "../images/profilepic.JPG"
 import profileimg from "../images/profileimg.png";
 import slack from "../images/slack.png";
 import { AiFillGithub } from "react-icons/ai";
@@ -20,10 +19,10 @@ function MainContainer() {
 
             <div id='profile'>
                 <div id='profile__img'>
-                <img className='profilepic' src={profilepic}alt='' />
+                <img className='profilepic' src={profileimg} alt='' />
                 </div>
                 <span>
-                    <h2 id='twitter'><small>Henry Okolie</small></h2>
+                    <h2 id='twitter'><small>Annette Black</small></h2>
                     <h2 id='slack' hidden ><small>HNG001819OHO</small></h2>
                 </span>      
             </div>
@@ -72,7 +71,7 @@ function MainContainer() {
 
                 <div className='primary'>
                     <span>
-                        <a href='J'> <img src={slack} alt="hngIcon" /></a>
+                        <a href='.'> <img src={slack} alt="hngIcon" /></a>
                     </span>
                     <span>
                         <i><AiFillGithub /></i>  
