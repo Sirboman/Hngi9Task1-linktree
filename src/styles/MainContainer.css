@@ -218,16 +218,25 @@ justify-content: center ;
         margin-bottom: 2rem;
     }
   
+    .MainContainer header #profile
+{
+    margin-top: 6rem;
+}
+
     .MainContainer header .icon-sm
     {
         border: 1px solid dashed black;
     }
+
+
     .MainContainer header .icon-sm i
     {
        top: 0.4rem;
        bottom: 0; 
        left: 0.4rem;
     }
+
+
     .MainContainer header .icon-sm i:nth-of-type(1)
     {
         position: absolute;
@@ -261,7 +270,7 @@ justify-content: center ;
     .MainContainer main .links .link li
     {
     background: #EAECF0;
-    width: 400px;
+    width: 300px;
     padding: 1rem;
     align-items: center;
     justify-content: center ;

@@ -9,6 +9,10 @@
 
 }
 
+.FooterContainer footer .task
+{
+    font-weight: 200;
+}
 
 footer .logo h2 small span
 {
