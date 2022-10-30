@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/Hngi9Task1-linktree/static/css/main.cf13e9dd.css",
-    "main.js": "/Hngi9Task1-linktree/static/js/main.8d100ab3.js",
+    "main.css": "/Hngi9Task1-linktree/static/css/main.c7c0f460.css",
+    "main.js": "/Hngi9Task1-linktree/static/js/main.633829a1.js",
     "static/js/787.c3a95983.chunk.js": "/Hngi9Task1-linktree/static/js/787.c3a95983.chunk.js",
-    "static/media/profilepic.JPG": "/Hngi9Task1-linktree/static/media/profilepic.e3608ee2041447826dc2.JPG",
     "static/media/profileimg.png": "/Hngi9Task1-linktree/static/media/profileimg.5ff40e1b5d2b90077f44.png",
     "index.html": "/Hngi9Task1-linktree/index.html",
-    "main.cf13e9dd.css.map": "/Hngi9Task1-linktree/static/css/main.cf13e9dd.css.map",
-    "main.8d100ab3.js.map": "/Hngi9Task1-linktree/static/js/main.8d100ab3.js.map",
+    "main.c7c0f460.css.map": "/Hngi9Task1-linktree/static/css/main.c7c0f460.css.map",
+    "main.633829a1.js.map": "/Hngi9Task1-linktree/static/js/main.633829a1.js.map",
     "787.c3a95983.chunk.js.map": "/Hngi9Task1-linktree/static/js/787.c3a95983.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf13e9dd.css",
-    "static/js/main.8d100ab3.js"
+    "static/css/main.c7c0f460.css",
+    "static/js/main.633829a1.js"
   ]
 }
