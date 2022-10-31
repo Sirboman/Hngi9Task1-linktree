@@ -75,12 +75,6 @@ footer .logo h2 small span
 
   @media screen and (max-width: 640px) {
 
-    .FooterContainer footer .elements
-    {
-        flex-direction: column;
-        left: 0;
 
-    }
-  
 
 }
